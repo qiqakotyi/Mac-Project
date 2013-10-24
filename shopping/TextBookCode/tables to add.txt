@@ -1,0 +1,6 @@
+if ($errors == 0) {
+$InternName = $first . " " . $last;
+echo "<p>Thank you, $InternName. ";
+echo "Your new Intern ID is <strong>" .
+$InternID . "</strong>.</p>\n";
+}

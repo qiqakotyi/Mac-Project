@@ -1,0 +1,22 @@
+if ($errors == 0) {
+$first = stripslashes($_POST['first']);
+$last = stripslashes($_POST['last']);
+$SQLstring = "INSERT INTO $TableName " .
+" (first, last, email, password_md5) " .
+" VALUES( '$first', '$last',
+'$email', " .
+" '" . md5($password) . "')";
+$QueryResult = @mysql_query($SQLstring,
+$DBConnect);
+if ($QueryResult === FALSE) {
+echo "<p>Unable to save your registration " .
+" information. Error code " .
+mysql_errno($DBConnect) . ": " .
+mysql_error($DBConnect) . "</p>\n";
+++$errors;
+}
+else {
+$InternID = mysql_insert_id($DBConnect);
+}
+mysql_close($DBConnect);
+}

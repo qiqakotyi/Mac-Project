@@ -1,0 +1,35 @@
+<DOCTYPE html!>
+<html>
+<head>
+
+<title>Image slider</title>
+<link rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jslider.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+
+		$(".slider").jslider({
+			btnNext:".next",
+			btnPrev:".prev"
+		})
+
+	});
+
+</script>
+
+</head>
+<body>
+<div id ="container">
+<img id="prev" class ="prev" src="slide12.jpg"/><img id="next" class ="next" src="slide13.jpg"/>
+<div class ="slider">
+<ul>
+	<li><img  class ="slider" src="slide14.jpg" alt="imgae 1"/></li>
+	<li><img  class ="slider" src="slide14.jpg" alt="imgae 2"/></li>
+	<li><img  class ="slider" src="slide14.jpg" alt="imgae 3"/></li>
+</ul>
+</div>
+</div>
+</body>
+</html>

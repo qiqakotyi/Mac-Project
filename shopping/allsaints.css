@@ -1,0 +1,619 @@
+@font-face {
+	font-family: 'AllSaints';
+	src: url('/assets/fonts/allsaints.eot');
+	src: url('/assets/fonts/allsaints.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/allsaints.woff') format('woff'),
+		url('/assets/fonts/allsaints.ttf') format('truetype'),
+		url('/assets/fonts/allsaints.svg#allsaints') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'TimesWebFont';
+    src: url('/assets/fonts/times-webfont.eot');
+    src: url('/assets/fonts/times-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/times-webfont.woff') format('woff'),
+         url('/assets/fonts/times-webfont.ttf') format('truetype'),
+         url('/assets/fonts/times-webfont.svg#timeswebfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.commodity_font,
+.commodity {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.times_font {
+	font-family: TimesWebFont, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#home_h2 {
+	display:none;
+}
+/* Extract from navigation.css */
+div#primary_navigation div.navigation_column a {
+	color: #000 !important;
+}
+.primary-nav {
+	list-style:none;
+}
+.primary-nav-item {
+	display:block;
+	float:left;
+	height:27px;
+}
+.primary-nav-item a {
+	display:block;
+	height:27px;
+	margin-right:9px !important;
+}
+.primary-nav-item a:hover {
+	display:block;
+	height:27px;
+	position:relative;
+}
+.primary-nav-item a span {
+	display:none;
+}
+#primary-nav-bag_site_selector a span {
+	display:inline;
+}
+
+
+.page-fixed-outer {
+	text-align:center;
+}
+.page-fixed-inner {
+	width:950px;
+	margin:0 auto;
+	text-align:left;
+}
+#footer-nav .column-separator {
+	border-left:1px solid #ddd;
+	width:2px;
+	height:65px;
+	float:left;
+	margin:0 5px;
+}
+.footer-nav-1-column {
+	float:left;
+	clear:right;
+    min-width:120px;
+    padding:0 5px 0 0;
+}
+.footer-sub-nav {
+	margin:0 0 0 5px;
+	padding:20px 0 0 0;
+	width:640px;
+	float:left;
+}
+.footer-nav-1-item {
+	display:block;
+}
+.footer-nav-1-item a {
+	display:block;
+	height:16px;
+}
+.footer-nav-1-item a span {
+	display:none;
+}
+.lang-selector-list-item {
+	padding-top:0;
+	padding-bottom:3px;
+	color:#888;
+	display:block;
+}
+#credits_area {
+    width:28em;
+    float:right;
+    text-align:right;
+    padding-bottom:10px;
+}
+#credits_area p {
+    line-height:15x;
+    margin:0 0 3px;
+}
+#credits_area p.copyright {
+    clear:both;
+    font-size:0.9em;
+}
+p.copyright span.rights {
+    color:#999;
+}
+
+
+/* Extract from simple.css */
+body {
+    margin:10px 0;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:11px;
+    color:#666666;
+    background-color:#FFFFFF;
+}
+p, td {
+    font-size:10px;
+    color:#666666;
+}
+.fleft{float:left}
+th {
+    text-align:left;
+}
+a {
+    color:#666666;
+    text-decoration:none;
+}
+a:hover {
+    color:#999999;
+}
+img {
+    border:0;
+}
+form, ul {
+    padding:0;
+    margin:0;
+    border:0;
+}
+input {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#666666;
+    background-color:#FFFFFF;
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-size:15px;
+    font-weight:bold;
+    color:#666666;
+    padding:0;
+    margin:0 0 10px 0;
+}
+p {
+    padding:0;
+    margin:0 0 10px 0;
+}
+div.home_page {
+    text-align:center;
+    overflow:hidden;
+}
+.cf {
+    clear:both;
+    line-height:0%;
+    font-size:0%;
+    height:0;
+}
+
+
+/* cookie box to display at the top of the page */
+
+#cookie-box {
+	margin: 5px 0;
+}
+
+#cookie-box .page-fixed-inner {
+	padding: 10px;
+	background-color: #FFFFD5;
+	text-align: center;
+	font-size: 11px;
+	line-height: 15px;
+	border: 1px solid #E7E7BA;
+	width: 930px;
+	position: relative;
+}
+
+#cookie-box .page-fixed-inner a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#cookie-box a.close {
+	position: absolute;
+	text-decoration: none;
+	top: 5px;
+	right: 5px;
+	line-height: normal;
+}
+
+
+/*  Social networking stuff is also in simple.css -.- */
+#social_networking_links.country_us {
+    float: left;
+    width: 218px;
+}
+
+#social_networking_links.country_us .button_wrapper {
+    display:inline;
+    float:right;
+}
+
+#social_networking_links a {
+    display:block;
+    float:left;
+    background:transparent url(/assets/icons/social_buttons_bw.png) no-repeat 0 0 scroll;
+    height:25px;
+    margin-right:6px;
+    width:25px;
+}
+#social_networking_facebook {
+    background-position: 1px -5px !important;
+}
+
+#social_networking_twitter {
+    background-position: -30px -5px !important;
+    width:29px !important;
+}
+
+#social_networking_youtube {
+    background-position: -93px -5px !important;
+    width:60px !important;
+}
+
+#social_networking_google_plus {
+    background-position: -65px -5px !important;
+    margin-right:6px !important;
+}
+
+#social_networking_linkedin {
+    background-position: -216px -5px !important;
+    margin-right:2px !important;
+}
+
+#social_networking_tumblr {
+    background-position: -242px -5px !important;
+    width: 32px !important;
+    margin-right:8px !important;
+}
+
+#social_networking_instagram {
+    background-position: -160px -5px !important;
+}
+
+#social_networking_pinterest {
+    background-position: -188px -5px !important;
+}
+
+
+#logo {
+    background:#fff url(../assets/logo/logo-spitalfields.gif) 6px 10px no-repeat;
+    width:340px;
+}
+#logo a {
+    display:block;
+    width:340px;
+    outline:0;
+}
+#logo span {
+    display:none;
+}
+
+#logo.commodity,
+#logo.times_font {
+    font-family: TimesWebFont, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height:40px;
+	font-weight: normal;
+    top:-4px;
+    position:relative;
+	background: none;
+    letter-spacing: 0.3em;
+}
+
+#logo.commodity a,
+#logo.times_font a {
+    font-family: TimesWebFont, Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	outline: 0;
+	color: #000;
+}
+
+#logo.commodity span {
+    font-family: TimesWebFont, Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+    margin-top: 10px;
+}
+
+#logo.times_font {
+    font-family: TimesWebFont, Verdana, Arial, Helvetica, sans-serif;
+	width: 223px;
+	height: auto;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 22px;
+	letter-spacing: 5px;
+}
+
+#logo.times_font:first-line {
+	font-size: 27px;
+	line-height: 22px;
+	letter-spacing: 5px;
+}
+
+#logo.times_font a,
+#logo.times_font span {
+	display: inline;
+}
+#quicksearch_container_2 {
+    clear:both;
+    float:right;
+    margin-top:0;
+    position:relative;
+    width:309px;
+    z-index:1500;
+}
+#quicksearch_container_2 #search {
+  	background: none repeat scroll 0 0 transparent !important;
+  	border: 1px solid silver !important;
+	color:#AAA;
+	display:block;
+	float:left;
+  	font-size: 1.3em;
+	height:auto;
+	margin-top:1px;
+	padding:2px 0px 2px 5px;
+  	vertical-align: middle !important;
+	width:205px;
+}
+
+#submit_go {
+	color:#FFF;
+	cursor: pointer;
+	border:0;
+	width:97px;
+	height:26px;
+	display:block;
+	float:right;
+	text-indent:-5000px;
+	display:block;
+	font-size:0;
+	line-height:0;
+	background:#FFF url('/assets/search/search-black.png') no-repeat -5px -8px scroll;
+	margin-top:1px;
+}
+
+#search {
+    width:199px;
+}
+#flag_1 a:hover{
+    color:#666666;
+}
+
+#primary-nav-sign_in.site_selector,
+#primary-nav-sign_in.site_selector:hover,
+#primary-nav-my_account.site_selector,
+#primary-nav-my_account.site_selector:hover {
+	background:none;
+	width:auto;
+	float:right;
+	line-height:27px;
+	margin-right:20px;
+}
+#primary-nav-sign_in.site_selector span,
+#primary-nav-my_account.site_selector span {
+	display:block;
+}
+
+#primary-nav-sign_in.site_selector span {
+	display:block;
+}
+.page-fixed-outer {
+	z-index:200;
+	position:relative;
+}
+#content-area {
+	z-index:100;
+	position:relative;
+}
+
+#search-results {
+    position:absolute;
+    z-index:1000;
+    width:413px;
+    height:280px;
+    border:1px solid #ddd;
+    padding-top:5px;
+    padding-bottom:5px;
+    overflow-y:scroll;
+    background-color:#fff;
+    opacity:0.95;
+    -moz-opacity:0.95;
+    filter:alpha(opacity=95);
+    top:34px;
+    right:0px;
+}
+#join_allsaints_header {
+    font-size: 1.2em;
+    height:14px;
+    margin:0 0 5px;
+    padding:0;
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    height:11px;
+    width:101px;
+}
+
+#slideshow-background {
+    height:100%;
+    width:100%;
+    background:no-repeat center top;
+    position:absolute;
+    z-index:-1000;
+}
+#slideshow-background2 {
+    height:100%;
+    width:100%;
+    background:no-repeat center top;
+    position:absolute;
+    z-index:-1001;
+}
+
+/* Extract from cms_assets */
+
+#join_allsaints_ramskull{
+	height:50px;
+    min-height: 65px;
+}
+#join_allsaints_ramskull p {
+    font-size: 10px;
+    padding-top: 2px;
+}
+#heading-subscribe {
+	display: block;
+	height: 18px;
+	width: 250px;
+	}
+#heading-thankyou {
+	background: #fff url('/genr/images/_common-1-subscribe.gif') no-repeat 0px -60px;
+	display: block;
+	height: 18px;
+	width: 200px;
+	}
+#button-contshop {
+	background: #fff url('/genr/images/_common-1-subscribe.gif') no-repeat 0px -30px;
+	display: block;
+	height: 18px;
+	width: 180px;
+	}
+#join-box {
+    margin-right: 0px;
+    padding: 15px 0px 0px 0px;
+    width: 400px;
+    float: left;
+    }
+#join-box-inner {
+	background: #fff url(/assets/footer-stamp.png) no-repeat 220px 0px;
+	height: 60px;
+}
+#join-box h3 {
+    width: 200px;
+}
+#join-box p {
+    padding-right: 60px;
+    }
+#join-title {
+	height: 14px;
+	width: 200px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+	line-height: 0.1em;
+	font-size: 0.1em;
+	background: #fff url(/genr/images/_nav-elem-1-1-secondary1-common.png) no-repeat 0px -37px;
+}
+#footer-text-protected {
+	height: 14px;
+	width: 275px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+	margin-right: 3px !important;
+	line-height: 0.1em;
+	font-size: 0.1em;
+	float: right;
+	background: #fff url(/genr/images/_nav-elem-1-1-secondary2-common.png) no-repeat 100% 45%;
+}
+
+a.button.commodity,
+input[type='submit'].commodity {
+	font-size: 11px;
+	line-height: 16px;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	behavior: url(/scripts/boilerplate/PIE.htc);
+}
+
+a.button.commodity,
+a.button.commodity.black,
+a.button.commodity.white:hover,
+input[type='submit'].commodity,
+input[type='submit'].black.commodity,
+input[type='submit'].white.commodity:hover {
+	color: #FFF;
+	background: #4d4d4d;
+	box-shadow: 1px 1px 1px #666;
+	-pie-background: linear-gradient(#666666, #333333);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.25, rgb(102, 102, 102)), color-stop(0.75, rgb(51, 51, 51)));
+	background-image: -moz-linear-gradient(center top, rgb(102, 102, 102) 25%, rgb(51, 51, 51) 75%);
+	border:0;
+}
+
+a.button.commodity:hover,
+a.button.commodity.white,
+a.button.commodity.black:hover,
+input[type='submit'].white.commodity,
+input[type='submit'].commodity:hover,
+input[type='submit'].black.commodity:hover {
+	color: #666;
+	background: #dfdfdf;
+	box-shadow: 1px 1px 1px #999;
+	-pie-background: linear-gradient(#F7F7F7, #CECECE);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(247, 247, 247)), color-stop(0.75, rgb(206, 206, 206)));
+	background-image: -moz-linear-gradient(center bottom, rgb(247, 247, 247) 25%, rgb(206, 206, 206) 75%);
+}
+
+
+
+
+
+a.button.commodity.arrow.left,
+a.button.commodity.arrow.right,
+input[type='submit'].commodity.arrow.left,
+input[type='submit'].commodity.arrow.right {
+	padding-left: 35px;
+	background-repeat: no-repeat, repeat;
+	background-position: 10px center, left top;
+}
+
+a.button.commodity.arrow.right.complete,
+input[type='submit'].commodity.arrow.right {
+	padding-left: 20px;
+	padding-right: 35px;
+}
+
+a.button.commodity.arrow.left,
+a.button.commodity.black.arrow.left,
+a.button.commodity.white.arrow.left:hover,
+input[type='submit'].commodity.arrow.left,
+input[type='submit'].black.commodity.arrow.left,
+input[type='submit'].white.commodity.arrow.left:hover {
+	-pie-background: url('/assets/arrow-button-white-left.png') no-repeat 10px center, linear-gradient(#666666, #333333) repeat left top;
+	background-image: url('/assets/arrow-button-white-left.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0.25, rgb(102, 102, 102)), color-stop(0.75, rgb(51, 51, 51)));
+	background-image: url('/assets/arrow-button-white-left.png'), -moz-linear-gradient(center top, rgb(102, 102, 102) 25%, rgb(51, 51, 51) 75%);
+}
+
+a.button.commodity.arrow.left:hover,
+a.button.commodity.white.arrow.left,
+a.button.commodity.black.arrow.left:hover,
+input[type='submit'].white.commodity.arrow.left,
+input[type='submit'].commodity.arrow.left:hover,
+input[type='submit'].black.commodity.arrow.left:hover {
+	-pie-background: url('/assets/arrow-button-black-left.png') no-repeat 10px center, linear-gradient(#F7F7F7, #CECECE) repeat left top;
+	background-image: url('/assets/arrow-button-black-left.png'), -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(247, 247, 247)), color-stop(0.75, rgb(206, 206, 206)));
+	background-image: url('/assets/arrow-button-black-left.png'), -moz-linear-gradient(center bottom, rgb(247, 247, 247) 25%, rgb(206, 206, 206) 75%);
+}
+
+a.button.commodity.arrow.right,
+a.button.commodity.black.arrow.right,
+a.button.commodity.white.arrow.right:hover,
+input[type='submit'].commodity.arrow.right,
+input[type='submit'].black.commodity.arrow.right,
+input[type='submit'].white.commodity.arrow.right:hover {
+	-pie-background: url('/assets/arrow-button-white-right.png') no-repeat 10px center, linear-gradient(#666666, #333333) repeat left top;
+	background-image: url('/assets/arrow-button-white-right.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0.25, rgb(102, 102, 102)), color-stop(0.75, rgb(51, 51, 51)));
+	background-image: url('/assets/arrow-button-white-right.png'), -moz-linear-gradient(center top, rgb(102, 102, 102) 25%, rgb(51, 51, 51) 75%);
+}
+
+a.button.commodity.arrow.right:hover,
+a.button.commodity.white.arrow.right,
+a.button.commodity.black.arrow.right:hover,
+input[type='submit'].white.commodity.arrow.right,
+input[type='submit'].commodity.arrow.right:hover,
+input[type='submit'].black.commodity.arrow.right:hover {
+	-pie-background: url('/assets/arrow-button-black-right.png') no-repeat 10px center, linear-gradient(#F7F7F7, #CECECE) repeat left top;
+	background-image: url('/assets/arrow-button-black-right.png'), -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(247, 247, 247)), color-stop(0.75, rgb(206, 206, 206)));
+	background-image: url('/assets/arrow-button-black-right.png'), -moz-linear-gradient(center bottom, rgb(247, 247, 247) 25%, rgb(206, 206, 206) 75%);
+}

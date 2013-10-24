@@ -1,0 +1,16 @@
+$TableName = "interns";
+if ($errors == 0) {
+$SQLstring = "SELECT count(*) FROM $TableName" .
+"where email=$email";
+$QueryResult = @mysql_query($SQLstring,
+$DBConnect);
+if ($QueryResult !== FALSE) {
+$Row = mysql_fetch_row($QueryResult);
+if ($Row[0]>0) {
+echo "<p>The email address entered (" .
+htmlentities($email) .
+") is already registered.</p>\n";
+++$errors;
+}
+}
+}
